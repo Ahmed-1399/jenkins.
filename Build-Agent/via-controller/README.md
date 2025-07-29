@@ -96,7 +96,7 @@ ssh slave@<AGENT_PUBLIC_IP>
    - **Availability:** Keep this agent online as much as possible
 3. **Save**
 
-⏳ After saving, the controller will attempt to SSH into the agent and download `agent.jar`.
+⏳ The agent (machine/server that runs the jobs) connects to the controller
 
 ---
 
@@ -106,7 +106,7 @@ ssh slave@<AGENT_PUBLIC_IP>
    - Click the node name in Jenkins
    - Return to the agent’s CLI:
      - `cd /home`
-     - Copy the Unix launch command from the Jenkins UI on the controller and run it on the agent
+     - Copy the Unix launch command from the Jenkins UI on the Created-Node and run commands on the agent(Slave)
 
 > 💡 *If the resources are insufficient, the node will remain offline.*
 
