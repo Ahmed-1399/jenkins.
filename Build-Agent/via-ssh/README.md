@@ -100,14 +100,7 @@ ssh slave@<AGENT_PUBLIC_IP>
 
 ---
 
-### 🟢 Bring the Agent Online
-
-1. If the status is **Offline**:
-   - Click the node name in Jenkins
-   - Return to the agent’s CLI:
-     - `cd /home`
-     - Copy the Unix launch command from the Jenkins UI on the controller and run it on the agent
-
+### 🟢 the Agent Online
 > 💡 *If the resources are insufficient, the node will remain offline.*
 
 ![Node Online](./assets/Status-Online.png)
